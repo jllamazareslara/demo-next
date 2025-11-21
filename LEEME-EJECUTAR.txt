@@ -1,0 +1,39 @@
+========================================
+  CÓMO EJECUTAR LA DEMO
+========================================
+
+1. Haz DOBLE CLIC en el archivo: iniciar-demo.bat
+
+2. Espera 15-20 segundos mientras el servidor inicia
+
+3. Se abrirá Chrome automáticamente con la demo en:
+   http://localhost:3000/demo
+
+4. Si no se abre automáticamente, abre Chrome manualmente y visita:
+   http://localhost:3000/demo
+
+========================================
+  IMPORTANTE
+========================================
+
+- NO cierres la ventana negra que dice "Servidor Next.js"
+- Esa ventana mantiene el servidor corriendo
+- Para detener el servidor, cierra esa ventana
+
+========================================
+  SOLUCIÓN DE PROBLEMAS
+========================================
+
+Si ves "conexión rechazada":
+1. Espera 20-30 segundos más (Next.js tarda en iniciar)
+2. Recarga la página (F5)
+3. Verifica que la ventana del servidor esté abierta
+
+Si el servidor no inicia:
+1. Abre una terminal (cmd)
+2. Ve a la carpeta demo-next
+3. Ejecuta: npm run dev
+4. Verás los errores en la pantalla
+
+========================================
+
